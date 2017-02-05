@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ARCHIVED | Archive Capture Replay Test Suite</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/acrts/css/style.css">
     <style media="screen">
     body {
       font-family: sans-serif;
@@ -61,17 +61,17 @@
     }
 
     #by-css .result {
-      background-image: url('img/by-css.png');
+      background-image: url('/acrts/img/by-css.png');
     }
 
     @font-face {
       font-family: 'testfont';
-      src: url('fonts/testfont.eot');
-      src: url('fonts/testfont.eot?#iefix') format('embedded-opentype'),
-           url('fonts/testfont.woff2') format('woff2'),
-           url('fonts/testfont.woff') format('woff'),
-           url('fonts/testfont.ttf') format('truetype'),
-           url('fonts/testfont.svg#WebFontSuccess') format('svg');
+      src: url('/acrts/fonts/testfont.eot');
+      src: url('/acrts/fonts/testfont.eot?#iefix') format('embedded-opentype'),
+           url('/acrts/fonts/testfont.woff2') format('woff2'),
+           url('/acrts/fonts/testfont.woff') format('woff'),
+           url('/acrts/fonts/testfont.ttf') format('truetype'),
+           url('/acrts/fonts/testfont.svg#WebFontSuccess') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -136,7 +136,7 @@
 
       <div class="test" id="image-srcset">
         <div class="result">
-          <img src="img/default.png" srcset="img/image-srcset-1.png 1x, img/image-srcset-2.png 2x, img/image-srcset-3.png 3x" alt="" />
+          <img src="/acrts/img/default.png" srcset="/acrts/img/image-srcset-1.png 1x, /acrts/img/image-srcset-2.png 2x, /acrts/img/image-srcset-3.png 3x" alt="" />
         </div>
         <h2 class="case">Image srcset</h2>
         <p>TODO: Write the description of the test...</p>
@@ -245,7 +245,7 @@
 
     <script type="text/javascript">
       function getImagePath(name) {
-        return 'img/' + name + '.png'
+        return '/acrts/img/' + name + '.png'
       }
 
       function setBackgroundImage(name) {
@@ -270,7 +270,7 @@
       });
 
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'data/by-ajax.txt');
+      xhr.open('GET', '/acrts/data/by-ajax.txt');
       xhr.send(null);
       xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
@@ -280,6 +280,6 @@
         }
       };
     </script>
-    <script src="js/script.js"></script>
+    <script src="/acrts/js/script.js"></script>
   </body>
 </html>
