@@ -1,9 +1,11 @@
 https://ibnesayeed.github.io/acrts/
-https://ibnesayeed.github.io/acrts/index.html
 https://ibnesayeed.github.io/acrts/css/style.css
 https://ibnesayeed.github.io/acrts/img/relative-path.png
 https://ibnesayeed.github.io/acrts/js/script.js
+https://ibnesayeed.github.io/acrts/img/default.png
 https://ibnesayeed.github.io/acrts/img/image-srcset-1.png
+https://ibnesayeed.github.io/acrts/img/image-srcset-2.png
+https://ibnesayeed.github.io/acrts/img/image-srcset-3.png
 https://ibnesayeed.github.io/acrts/img/absolute-url.png
 https://ibnesayeed.github.io/acrts/img/absolute-path.png
 https://ibnesayeed.github.io/acrts/img/by-css.png
