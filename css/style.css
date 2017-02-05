@@ -1,0 +1,7 @@
+#css-file .result {
+  background: #f00;
+}
+
+#by-css-file .result {
+  background-image: url('../img/by-css-file.png');
+}
