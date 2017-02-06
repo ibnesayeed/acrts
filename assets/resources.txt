@@ -11,6 +11,10 @@ https://ibnesayeed.github.io/acrts/img/absolute-path.png
 https://ibnesayeed.github.io/acrts/img/by-css.png
 https://ibnesayeed.github.io/acrts/data/by-ajax.txt
 https://ibnesayeed.github.io/acrts/img/by-css-file.png
+https://ibnesayeed.github.io/acrts/fonts/testfont.eot
+https://ibnesayeed.github.io/acrts/fonts/testfont.svg
+https://ibnesayeed.github.io/acrts/fonts/testfont.ttf
+https://ibnesayeed.github.io/acrts/fonts/testfont.woff
 https://ibnesayeed.github.io/acrts/fonts/testfont.woff2
 https://ibnesayeed.github.io/acrts/img/by-js-on-page-load.png
 https://ibnesayeed.github.io/acrts/img/by-js-file.png
